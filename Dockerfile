@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/pause-arm64:3.0
+FROM k8s.gcr.io/etcd-arm64:3.1.10
 ENV PVERSION 1.9.5
