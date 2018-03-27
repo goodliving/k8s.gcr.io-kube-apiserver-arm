@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kubernetes-dashboard-arm64:v1.8.3
+FROM k8s.gcr.io/k8s-dns-sidecar-arm64:1.14.7	
