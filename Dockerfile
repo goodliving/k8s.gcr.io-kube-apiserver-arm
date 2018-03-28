@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kubernetes-dashboard-arm:v1.8.3
+FROM k8s.gcr.io/heapster-arm64:v1.4.2
