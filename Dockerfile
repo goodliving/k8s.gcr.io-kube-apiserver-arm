@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/heapster-grafana-arm64:v4.4.3
+FROM k8s.gcr.io/heapster-influxdb-arm64:v1.3.3
