@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/heapster-influxdb-arm64:v1.3.3
+FROM k8s.gcr.io/pause-amd64:3.0
