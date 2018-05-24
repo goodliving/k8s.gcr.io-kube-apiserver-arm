@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/pause-amd64:3.0
+FROM gcr.io/kubernetes-helm/tiller:v2.9.1
