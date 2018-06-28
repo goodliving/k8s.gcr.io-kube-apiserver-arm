@@ -1,2 +1,2 @@
-FROM k8s.gcr.io/defaultbackend:1.3
-ENV a 11
+FROM golang
+RUN go get k8s.io/client-go
