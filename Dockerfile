@@ -1,2 +1,1 @@
-FROM golang
-RUN go get k8s.io/client-go/...
+FROM k8s.gcr.io/pause-amd64:3.0
