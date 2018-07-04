@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/pause-amd64:3.0
+FROM gcr.io/heptio-images/sonobuoy:v0.11.3
