@@ -1,1 +1,1 @@
-FROM gcr.io/heptio-images/sonobuoy:v0.11.3
+FROM k8s.gcr.io/kube-apiserver-amd64:v1.11.0
