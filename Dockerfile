@@ -1,1 +1,1 @@
-FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.16.2
+FROM k8s.gcr.io/pause-arm64:3.1
