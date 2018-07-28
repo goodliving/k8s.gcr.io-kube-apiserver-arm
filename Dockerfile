@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/heapster-grafana-arm64:v5.0.4
+FROM k8s.gcr.io/heapster-amd64:v1.5.4
