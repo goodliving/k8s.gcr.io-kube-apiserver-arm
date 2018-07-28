@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/heapster-arm64:v1.4.2
+FROM k8s.gcr.io/heapster-influxdb-arm64:v1.5.2
