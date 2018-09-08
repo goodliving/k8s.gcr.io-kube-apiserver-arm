@@ -1,3 +1,3 @@
-FROM golang as builder
-RUN go get -u -v github.com/mitchellh/gox
-RUN go get -u -v github.com/helm/chartmuseum
+FROM golang
+RUN mkdir $GOPATH/kubernetes-helm -p  && cd $GOPATH/kubernetes-helm && git clone https://github.com/helm/chartmuseum.git && \
+    cd chartmuseum/cmd/chartmuseum && go get -u -v 
