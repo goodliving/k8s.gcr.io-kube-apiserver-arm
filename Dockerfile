@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/pause-arm64:3.1
+FROM k8s.gcr.io/coredns-arm64:1.1.3
