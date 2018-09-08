@@ -1,1 +1,2 @@
-FROM k8s.gcr.io/coredns-arm64:1.1.3
+FROM golang
+RUN go get -u -v github.com/helm/chartmuseum
