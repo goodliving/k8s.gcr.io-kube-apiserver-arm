@@ -1,2 +1,3 @@
-FROM nginx:alpine
-RUN apk add wget && wget https://s3.amazonaws.com/chartmuseum/release/latest/bin/linux/amd64/chartmuseum
+FROM golang
+RUN cd $GOPATH && mkdir -p src/k8s.io && cd src/k8s.io && git clone https://github.com/kubernetes/helm.git && cd helm && make bootstrap build
+make bootstrap build
