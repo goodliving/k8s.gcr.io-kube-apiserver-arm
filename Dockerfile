@@ -6,3 +6,4 @@ RUN cd $GOPATH && \
     cd helm && \
     sed -i '/TARGETS/s/?//g' Makefile && \
     make bootstrap build
+
