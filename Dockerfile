@@ -1,3 +1,3 @@
 FROM golang
-RUN mkdir $GOPATH/kubernetes-helm -p  && cd $GOPATH/kubernetes-helm && git clone https://github.com/helm/chartmuseum.git && \
-    cd chartmuseum/cmd/chartmuseum && go get
+RUN dep ensure -v -vendor-only
+RUN cd /opt && dep ensure -v -vendor-only
