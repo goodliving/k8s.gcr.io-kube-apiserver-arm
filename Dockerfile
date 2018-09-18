@@ -1,8 +1,1 @@
-FROM golang
-RUN cd $GOPATH && \
-    mkdir -p src/k8s.io && \
-    cd src/k8s.io && \
-    git clone https://github.com/kubernetes/helm.git && \
-    cd helm && \
-    make bootstrap build
-
+FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.10.0
