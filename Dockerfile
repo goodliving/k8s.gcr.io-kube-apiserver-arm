@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/hyperkube:v1.7.12
+FROM gcr.io/google_containers/defaultbackend:1.4
