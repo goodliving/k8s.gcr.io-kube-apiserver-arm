@@ -1,1 +1,1 @@
-FROM quay.io/coreos/flannel:v0.10.0-amd64
+FROM gcr.io/google_containers/metrics-server-amd64:v0.3.1
