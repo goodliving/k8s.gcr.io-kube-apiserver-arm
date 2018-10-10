@@ -1,1 +1,3 @@
-FROM gcr.io/google_containers/metrics-server-amd64:v0.3.1
+FROM alpine
+RUN apk update && apk add wget
+RUN wget https://storage.googleapis.com/kubernetes-release/release/v1.11.3/kubernetes-server-linux-amd64.tar.gz
