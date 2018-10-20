@@ -1,1 +1,1 @@
-FROM gcr.io/google_containers/coredns-arm64:1.2.2
+FROM gcr.io/google_containers/pause-arm64:3.0
