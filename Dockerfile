@@ -1,1 +1,2 @@
-FROM gcr.io/google_containers/pause-arm64:3.0
+FROM golang:alpine
+RUN go get k8s.io/client-go/...
