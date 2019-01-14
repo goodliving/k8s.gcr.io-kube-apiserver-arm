@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/kubernetes-zookeeper:1.0-3.4.10
+FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.21.0
