@@ -1,2 +1,3 @@
 FROM golang:alpine
+RUN apk add git
 RUN go get -u -v k8s.io/client-go/...
