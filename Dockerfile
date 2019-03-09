@@ -1,3 +1,1 @@
-FROM golang:alpine
-RUN apk add git
-RUN go get -u -v k8s.io/client-go/...
+FROM gcr.io/kubernetes-helm/tiller-arm64:v2.13.0
