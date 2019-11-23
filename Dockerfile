@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM alpine
 RUN apk update && apk add git wget 
 WORKDIR /opt
-RUN go get -u -v -tags "etcd" github.com/smallnest/rpcx/...
+RUN wget https://dl.k8s.io/v1.16.3/kubernetes-server-linux-arm64.tar.gz
