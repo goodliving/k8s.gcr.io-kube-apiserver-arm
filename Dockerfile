@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/pause-arm64:3.1
+FROM k8s.gcr.io/kube-apiserver-arm64:v1.16.3
